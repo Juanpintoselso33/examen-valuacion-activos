@@ -1,0 +1,40 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Introducción}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Objetivos}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Justificación}{6}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Metodología}{6}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Estructura del trabajo}{6}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Marco Teórico}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Método de Flujo de Caja Descontado (DCF)}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Enfoques principales de valuación}{7}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Enfoque de ingresos y valor intrínseco}{8}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Enfoque de mercado y valuación relativa}{8}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Métodos especializados y enfoques híbridos}{9}{subsection.2.2.3}%
+\contentsline {chapter}{\numberline {3}Desarrollo}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Métodos más utilizados en la valuación de empresas tecnológicas}{11}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Flujo de Caja Descontado}{11}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Múltiplos comparables}{12}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Métodos complementarios}{13}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Características particulares de las empresas tecnológicas}{14}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Activos intangibles y escalabilidad}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Innovación tecnológica y estructura de costos}{15}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Limitaciones contables y riesgos específicos}{16}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Factores cuantitativos y cualitativos en la valuación}{18}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Factores cuantitativos fundamentales}{18}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Factores cualitativos estratégicos}{19}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Factores del entorno competitivo y regulatorio}{20}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Estudios de caso representativos}{21}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Amazon: estrategia de crecimiento a largo plazo}{22}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Tesla: disrupción y expectativas especulativas}{22}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Google: el valor de los activos intangibles}{23}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}WeWork: el colapso de expectativas infundadas}{24}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Síntesis analítica de los casos}{25}{subsection.3.4.5}%
+\contentsline {section}{\numberline {3.5}Tendencias actuales en la era digital}{25}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Dominancia de intangibles y evolución del entorno financiero}{26}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Transición hacia la disciplina financiera y rentabilidad}{26}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Nuevas fronteras tecnológicas y consideraciones ESG}{28}{subsection.3.5.3}%
+\contentsline {chapter}{\numberline {4}Conclusiones}{30}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Principales hallazgos}{30}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Lecciones de los casos estudiados}{31}{section.4.2}%
+\contentsline {section}{\numberline {4.3}El nuevo paradigma de valoración}{32}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Reflexiones finales}{32}{section.4.4}%

@@ -1,0 +1,533 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{copeland2014}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8d8118977660469c75e26a34e9e1c1b2}{%
+           family={Copeland},
+           familyi={C\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0610e8f2d8d259bb18babb1bf94b73b1}{%
+           family={Koller},
+           familyi={K\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82e132c046e0068d4369fff0bb6d72ce}{%
+           family={Murrin},
+           familyi={M\bibinitperiod},
+           given={Jack},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {McKinsey \& Company Inc.}%
+      }
+      \strng{namehash}{e6aa6ad77a669879d6c2839c386165ec}
+      \strng{fullhash}{d1e04bb6ee4ea67bfdc31e1c3b840b34}
+      \strng{fullhashraw}{d1e04bb6ee4ea67bfdc31e1c3b840b34}
+      \strng{bibnamehash}{d1e04bb6ee4ea67bfdc31e1c3b840b34}
+      \strng{authorbibnamehash}{d1e04bb6ee4ea67bfdc31e1c3b840b34}
+      \strng{authornamehash}{e6aa6ad77a669879d6c2839c386165ec}
+      \strng{authorfullhash}{d1e04bb6ee4ea67bfdc31e1c3b840b34}
+      \strng{authorfullhashraw}{d1e04bb6ee4ea67bfdc31e1c3b840b34}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6}
+      \field{title}{Valuation: Measuring and Managing the Value of Companies}
+      \field{year}{2014}
+    \endentry
+    \entry{damodaran2012}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=063f60692f2f4aa0aa54afd9bd84e4a0}{%
+           family={Damodaran},
+           familyi={D\bibinitperiod},
+           given={Aswath},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{fullhash}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{fullhashraw}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{bibnamehash}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{authorbibnamehash}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{authornamehash}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{authorfullhash}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{authorfullhashraw}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{title}{Investment Valuation: Tools and Techniques for Determining the Value of Any Asset}
+      \field{year}{2012}
+    \endentry
+    \entry{fernandez2007}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=99c296008f03d5d17adf290dc1ee6636}{%
+           family={Fernández},
+           familyi={F\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{99c296008f03d5d17adf290dc1ee6636}
+      \strng{fullhash}{99c296008f03d5d17adf290dc1ee6636}
+      \strng{fullhashraw}{99c296008f03d5d17adf290dc1ee6636}
+      \strng{bibnamehash}{99c296008f03d5d17adf290dc1ee6636}
+      \strng{authorbibnamehash}{99c296008f03d5d17adf290dc1ee6636}
+      \strng{authornamehash}{99c296008f03d5d17adf290dc1ee6636}
+      \strng{authorfullhash}{99c296008f03d5d17adf290dc1ee6636}
+      \strng{authorfullhashraw}{99c296008f03d5d17adf290dc1ee6636}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IESE Business School}
+      \field{number}{D/771}
+      \field{title}{Métodos de valoración de empresas}
+      \field{type}{Documento de Investigación}
+      \field{year}{2007}
+    \endentry
+    \entry{haskel2017}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=dd7fe26f5561f6e07d085b788e7336e9}{%
+           family={Haskel},
+           familyi={H\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb963149ed914303356f7d23b2874c24}{%
+           family={Westlake},
+           familyi={W\bibinitperiod},
+           given={Stian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{ae6f63675dbad99a2ac049c4d556784e}
+      \strng{fullhash}{ae6f63675dbad99a2ac049c4d556784e}
+      \strng{fullhashraw}{ae6f63675dbad99a2ac049c4d556784e}
+      \strng{bibnamehash}{ae6f63675dbad99a2ac049c4d556784e}
+      \strng{authorbibnamehash}{ae6f63675dbad99a2ac049c4d556784e}
+      \strng{authornamehash}{ae6f63675dbad99a2ac049c4d556784e}
+      \strng{authorfullhash}{ae6f63675dbad99a2ac049c4d556784e}
+      \strng{authorfullhashraw}{ae6f63675dbad99a2ac049c4d556784e}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Capitalism without Capital: The Rise of the Intangible Economy}
+      \field{year}{2017}
+    \endentry
+    \entry{kruze2023}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=85637a828f7892fe7c4df0a21d23d003}{%
+           family={{Kruze Consulting}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{85637a828f7892fe7c4df0a21d23d003}
+      \strng{fullhash}{85637a828f7892fe7c4df0a21d23d003}
+      \strng{fullhashraw}{85637a828f7892fe7c4df0a21d23d003}
+      \strng{bibnamehash}{85637a828f7892fe7c4df0a21d23d003}
+      \strng{authorbibnamehash}{85637a828f7892fe7c4df0a21d23d003}
+      \strng{authornamehash}{85637a828f7892fe7c4df0a21d23d003}
+      \strng{authorfullhash}{85637a828f7892fe7c4df0a21d23d003}
+      \strng{authorfullhashraw}{85637a828f7892fe7c4df0a21d23d003}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Valuation of Tech Companies: A Comprehensive Guide}
+      \field{year}{2023}
+    \endentry
+    \entry{lev2001}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=72e786092b3416e19c453e5468db862d}{%
+           family={Lev},
+           familyi={L\bibinitperiod},
+           given={Baruch},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Brookings Institution Press}%
+      }
+      \strng{namehash}{72e786092b3416e19c453e5468db862d}
+      \strng{fullhash}{72e786092b3416e19c453e5468db862d}
+      \strng{fullhashraw}{72e786092b3416e19c453e5468db862d}
+      \strng{bibnamehash}{72e786092b3416e19c453e5468db862d}
+      \strng{authorbibnamehash}{72e786092b3416e19c453e5468db862d}
+      \strng{authornamehash}{72e786092b3416e19c453e5468db862d}
+      \strng{authorfullhash}{72e786092b3416e19c453e5468db862d}
+      \strng{authorfullhashraw}{72e786092b3416e19c453e5468db862d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Intangibles: Management, Measurement, and Reporting}
+      \field{year}{2001}
+    \endentry
+    \entry{santos2022}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cc6c7553408dee5a2587befc8bb9db11}{%
+           family={Santos\bibnamedelima Sanz},
+           familyi={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de Valladolid}%
+      }
+      \strng{namehash}{cc6c7553408dee5a2587befc8bb9db11}
+      \strng{fullhash}{cc6c7553408dee5a2587befc8bb9db11}
+      \strng{fullhashraw}{cc6c7553408dee5a2587befc8bb9db11}
+      \strng{bibnamehash}{cc6c7553408dee5a2587befc8bb9db11}
+      \strng{authorbibnamehash}{cc6c7553408dee5a2587befc8bb9db11}
+      \strng{authornamehash}{cc6c7553408dee5a2587befc8bb9db11}
+      \strng{authorfullhash}{cc6c7553408dee5a2587befc8bb9db11}
+      \strng{authorfullhashraw}{cc6c7553408dee5a2587befc8bb9db11}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Las opciones reales en la valoración de empresas tecnológicas}
+      \field{type}{Trabajo de Fin de Grado}
+      \field{year}{2022}
+    \endentry
+    \entry{segura2023}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6c774fbecf2a1e1388aa459e646c9b03}{%
+           family={Segura},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6c774fbecf2a1e1388aa459e646c9b03}
+      \strng{fullhash}{6c774fbecf2a1e1388aa459e646c9b03}
+      \strng{fullhashraw}{6c774fbecf2a1e1388aa459e646c9b03}
+      \strng{bibnamehash}{6c774fbecf2a1e1388aa459e646c9b03}
+      \strng{authorbibnamehash}{6c774fbecf2a1e1388aa459e646c9b03}
+      \strng{authornamehash}{6c774fbecf2a1e1388aa459e646c9b03}
+      \strng{authorfullhash}{6c774fbecf2a1e1388aa459e646c9b03}
+      \strng{authorfullhashraw}{6c774fbecf2a1e1388aa459e646c9b03}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Blog Estratega Financiero}
+      \field{title}{Escalabilidad digital y activos intangibles}
+      \field{year}{2023}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{copeland2014}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8d8118977660469c75e26a34e9e1c1b2}{%
+           family={Copeland},
+           familyi={C\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0610e8f2d8d259bb18babb1bf94b73b1}{%
+           family={Koller},
+           familyi={K\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82e132c046e0068d4369fff0bb6d72ce}{%
+           family={Murrin},
+           familyi={M\bibinitperiod},
+           given={Jack},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {McKinsey \& Company Inc.}%
+      }
+      \strng{namehash}{e6aa6ad77a669879d6c2839c386165ec}
+      \strng{fullhash}{d1e04bb6ee4ea67bfdc31e1c3b840b34}
+      \strng{fullhashraw}{d1e04bb6ee4ea67bfdc31e1c3b840b34}
+      \strng{bibnamehash}{d1e04bb6ee4ea67bfdc31e1c3b840b34}
+      \strng{authorbibnamehash}{d1e04bb6ee4ea67bfdc31e1c3b840b34}
+      \strng{authornamehash}{e6aa6ad77a669879d6c2839c386165ec}
+      \strng{authorfullhash}{d1e04bb6ee4ea67bfdc31e1c3b840b34}
+      \strng{authorfullhashraw}{d1e04bb6ee4ea67bfdc31e1c3b840b34}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6}
+      \field{title}{Valuation: Measuring and Managing the Value of Companies}
+      \field{year}{2014}
+    \endentry
+    \entry{damodaran2012}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=063f60692f2f4aa0aa54afd9bd84e4a0}{%
+           family={Damodaran},
+           familyi={D\bibinitperiod},
+           given={Aswath},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{fullhash}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{fullhashraw}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{bibnamehash}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{authorbibnamehash}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{authornamehash}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{authorfullhash}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{authorfullhashraw}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{title}{Investment Valuation: Tools and Techniques for Determining the Value of Any Asset}
+      \field{year}{2012}
+    \endentry
+    \entry{fernandez2007}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=99c296008f03d5d17adf290dc1ee6636}{%
+           family={Fernández},
+           familyi={F\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{99c296008f03d5d17adf290dc1ee6636}
+      \strng{fullhash}{99c296008f03d5d17adf290dc1ee6636}
+      \strng{fullhashraw}{99c296008f03d5d17adf290dc1ee6636}
+      \strng{bibnamehash}{99c296008f03d5d17adf290dc1ee6636}
+      \strng{authorbibnamehash}{99c296008f03d5d17adf290dc1ee6636}
+      \strng{authornamehash}{99c296008f03d5d17adf290dc1ee6636}
+      \strng{authorfullhash}{99c296008f03d5d17adf290dc1ee6636}
+      \strng{authorfullhashraw}{99c296008f03d5d17adf290dc1ee6636}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IESE Business School}
+      \field{number}{D/771}
+      \field{title}{Métodos de valoración de empresas}
+      \field{type}{Documento de Investigación}
+      \field{year}{2007}
+    \endentry
+    \entry{haskel2017}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=dd7fe26f5561f6e07d085b788e7336e9}{%
+           family={Haskel},
+           familyi={H\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb963149ed914303356f7d23b2874c24}{%
+           family={Westlake},
+           familyi={W\bibinitperiod},
+           given={Stian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{ae6f63675dbad99a2ac049c4d556784e}
+      \strng{fullhash}{ae6f63675dbad99a2ac049c4d556784e}
+      \strng{fullhashraw}{ae6f63675dbad99a2ac049c4d556784e}
+      \strng{bibnamehash}{ae6f63675dbad99a2ac049c4d556784e}
+      \strng{authorbibnamehash}{ae6f63675dbad99a2ac049c4d556784e}
+      \strng{authornamehash}{ae6f63675dbad99a2ac049c4d556784e}
+      \strng{authorfullhash}{ae6f63675dbad99a2ac049c4d556784e}
+      \strng{authorfullhashraw}{ae6f63675dbad99a2ac049c4d556784e}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Capitalism without Capital: The Rise of the Intangible Economy}
+      \field{year}{2017}
+    \endentry
+    \entry{kruze2023}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=85637a828f7892fe7c4df0a21d23d003}{%
+           family={{Kruze Consulting}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{85637a828f7892fe7c4df0a21d23d003}
+      \strng{fullhash}{85637a828f7892fe7c4df0a21d23d003}
+      \strng{fullhashraw}{85637a828f7892fe7c4df0a21d23d003}
+      \strng{bibnamehash}{85637a828f7892fe7c4df0a21d23d003}
+      \strng{authorbibnamehash}{85637a828f7892fe7c4df0a21d23d003}
+      \strng{authornamehash}{85637a828f7892fe7c4df0a21d23d003}
+      \strng{authorfullhash}{85637a828f7892fe7c4df0a21d23d003}
+      \strng{authorfullhashraw}{85637a828f7892fe7c4df0a21d23d003}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Valuation of Tech Companies: A Comprehensive Guide}
+      \field{year}{2023}
+    \endentry
+    \entry{lev2001}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=72e786092b3416e19c453e5468db862d}{%
+           family={Lev},
+           familyi={L\bibinitperiod},
+           given={Baruch},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Brookings Institution Press}%
+      }
+      \strng{namehash}{72e786092b3416e19c453e5468db862d}
+      \strng{fullhash}{72e786092b3416e19c453e5468db862d}
+      \strng{fullhashraw}{72e786092b3416e19c453e5468db862d}
+      \strng{bibnamehash}{72e786092b3416e19c453e5468db862d}
+      \strng{authorbibnamehash}{72e786092b3416e19c453e5468db862d}
+      \strng{authornamehash}{72e786092b3416e19c453e5468db862d}
+      \strng{authorfullhash}{72e786092b3416e19c453e5468db862d}
+      \strng{authorfullhashraw}{72e786092b3416e19c453e5468db862d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Intangibles: Management, Measurement, and Reporting}
+      \field{year}{2001}
+    \endentry
+    \entry{santos2022}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cc6c7553408dee5a2587befc8bb9db11}{%
+           family={Santos\bibnamedelima Sanz},
+           familyi={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de Valladolid}%
+      }
+      \strng{namehash}{cc6c7553408dee5a2587befc8bb9db11}
+      \strng{fullhash}{cc6c7553408dee5a2587befc8bb9db11}
+      \strng{fullhashraw}{cc6c7553408dee5a2587befc8bb9db11}
+      \strng{bibnamehash}{cc6c7553408dee5a2587befc8bb9db11}
+      \strng{authorbibnamehash}{cc6c7553408dee5a2587befc8bb9db11}
+      \strng{authornamehash}{cc6c7553408dee5a2587befc8bb9db11}
+      \strng{authorfullhash}{cc6c7553408dee5a2587befc8bb9db11}
+      \strng{authorfullhashraw}{cc6c7553408dee5a2587befc8bb9db11}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Las opciones reales en la valoración de empresas tecnológicas}
+      \field{type}{Trabajo de Fin de Grado}
+      \field{year}{2022}
+    \endentry
+    \entry{segura2023}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6c774fbecf2a1e1388aa459e646c9b03}{%
+           family={Segura},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6c774fbecf2a1e1388aa459e646c9b03}
+      \strng{fullhash}{6c774fbecf2a1e1388aa459e646c9b03}
+      \strng{fullhashraw}{6c774fbecf2a1e1388aa459e646c9b03}
+      \strng{bibnamehash}{6c774fbecf2a1e1388aa459e646c9b03}
+      \strng{authorbibnamehash}{6c774fbecf2a1e1388aa459e646c9b03}
+      \strng{authornamehash}{6c774fbecf2a1e1388aa459e646c9b03}
+      \strng{authorfullhash}{6c774fbecf2a1e1388aa459e646c9b03}
+      \strng{authorfullhashraw}{6c774fbecf2a1e1388aa459e646c9b03}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Blog Estratega Financiero}
+      \field{title}{Escalabilidad digital y activos intangibles}
+      \field{year}{2023}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

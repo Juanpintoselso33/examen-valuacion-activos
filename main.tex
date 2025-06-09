@@ -1,0 +1,107 @@
+% ========================================
+% DOCUMENTO PRINCIPAL - VALUACIÓN DE EMPRESAS TECNOLÓGICAS
+% ========================================
+
+\documentclass[12pt,a4paper,twoside]{report}
+
+% ========================================
+% PAQUETES Y CONFIGURACIÓN
+% ========================================
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% Geometría y márgenes profesionales
+\usepackage{geometry}
+\geometry{
+    left=2.5cm,
+    right=2.5cm,
+    top=2.5cm,
+    bottom=2.5cm
+}
+
+% Matemáticas y símbolos
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{mathtools}
+
+% Gráficos y figuras
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{subcaption}
+
+% Tablas avanzadas
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{longtable}
+
+% Colores y enlaces
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+
+% Comillas y bibliografía con estilo APA
+\usepackage{csquotes}
+\usepackage[style=apa,backend=biber,natbib=true]{biblatex}
+\addbibresource{referencias.bib}
+
+% Espaciado y formato
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{indentfirst}
+\setlength{\parindent}{1.25cm}
+
+% Encabezados y pies de página
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\thepage}
+\fancyhead[L]{\leftmark}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% Numeración de secciones
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+% Personalización de capítulos
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
+% ========================================
+% INFORMACIÓN DEL DOCUMENTO
+% ========================================
+\title{Valuación de empresas tecnológicas: Fundamentos, métodos y tendencias actuales}
+\author{[Su Nombre]}
+\date{\today}
+
+% ========================================
+% INICIO DEL DOCUMENTO
+% ========================================
+\begin{document}
+
+% Portada
+\input{secciones/portada}
+
+% Índice
+\cleardoublepage
+\tableofcontents
+\cleardoublepage
+
+% Contenido principal
+\input{secciones/introduccion}
+\input{secciones/marco_teorico}
+\input{secciones/desarrollo}
+\input{secciones/conclusiones}
+
+% Bibliografía
+\cleardoublepage
+\printbibliography[title=Bibliografía]
+
+% Anexos (si los hay)
+% \appendix
+% \input{secciones/anexos}
+
+\end{document} 

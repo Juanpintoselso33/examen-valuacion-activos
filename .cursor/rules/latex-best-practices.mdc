@@ -1,0 +1,276 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Mejores Prácticas para LaTeX - Valuación de Empresas Tecnológicas
+
+## Configuración Principal
+
+### Documentclass y Paquetes Esenciales
+- Usar `\documentclass[12pt,a4paper,twoside]{report}` para trabajos académicos
+- **SIEMPRE** incluir estos paquetes base:
+  ```latex
+  \usepackage[T1]{fontenc}           % Codificación de fuentes
+  \usepackage[spanish]{babel}        % Soporte para español
+  \usepackage[style=apa,backend=biber]{biblatex}  % APA 7
+  \usepackage{geometry}              % Márgenes profesionales
+  \usepackage{setspace}              % Espaciado
+  \usepackage{fancyhdr}              % Encabezados
+  \usepackage{graphicx}              % Figuras
+  \usepackage{booktabs}              % Tablas profesionales
+  \usepackage{hyperref}              % Enlaces
+  ```
+
+### Configuración APA 7
+- Usar `biblatex` con estilo APA: `\usepackage[style=apa,backend=biber]{biblatex}`
+- Configurar citas correctas: `\DeclareCiteCommand{\cite}...`
+- Referencias en archivo separado `referencias.bib`
+- Compilar con: pdflatex → biber → pdflatex → pdflatex
+
+## Estructura Modular
+
+### Archivo Principal ([main.tex](mdc:main.tex))
+- Un solo archivo principal que incluye todos los módulos
+- No mezclar contenido con estructura
+- Usar `\input{archivo}` para contenido fijo
+- Usar `\include{archivo}` para capítulos
+- **CRÍTICO**: Configurar `twoside` y márgenes uniformes de 2.5cm
+
+### Organización de Archivos - Proyecto Valuación Empresas Tecnológicas
+```
+proyecto/
+├── main.tex                    # Archivo principal con configuración profesional
+├── secciones/
+│   ├── portada.tex            # Portada personalizable con campos seguros {}
+│   ├── introduccion.tex       # ✅ CORREGIDO - Prosa académica continua
+│   ├── marco_teorico.tex      # ✅ CORREGIDO - Tipografía española correcta
+│   ├── desarrollo.tex         # Capítulo principal que incluye subsecciones
+│   ├── conclusiones.tex       # ✅ CORREGIDO - Sin exceso de subsecciones
+│   └── desarrollo/            # Subsecciones modulares
+│       ├── metodos_utilizados.tex      # ✅ CORREGIDO - Prosa fluida, no bullets
+│       ├── caracteristicas_particulares.tex
+│       ├── factores_valuacion.tex
+│       ├── casos_estudio.tex
+│       └── tendencias_actuales.tex
+├── figuras/                   # Todas las imágenes
+├── referencias.bib            # ✅ Bibliografía en formato APA 7
+└── README.md                  # Instrucciones de compilación
+```
+
+### Archivos Corregidos con Estándares Académicos
+- **[secciones/introduccion.tex](mdc:secciones/introduccion.tex)**: Objetivos en prosa continua
+- **[secciones/desarrollo/metodos_utilizados.tex](mdc:secciones/desarrollo/metodos_utilizados.tex)**: DCF y múltiplos en párrafos desarrollados
+- **[secciones/conclusiones.tex](mdc:secciones/conclusiones.tex)**: Hallazgos sin fragmentación de bullets
+
+## Tipografía Profesional en Español
+
+### Comillas y Apostrofes
+- **NUNCA** usar `"` directas
+- Usar comillas españolas: `<<texto>>` o `\guillemotleft texto\guillemotright`
+- Para citas dentro de citas: `<<texto `texto' texto>>`
+- Inglés embebido: usar comillas inglesas `texto''`
+
+### Guiones
+- **Guión corto** (-): para palabras compuestas: `socio-económico`
+- **Guión medio** (--): para rangos numéricos: `páginas 15--30`
+- **Guión largo** (---): para incisos explicativos: `La empresa ---fundada en 1995--- ha crecido`
+- **NUNCA** usar espacios antes/después de guiones largos para incisos
+
+### Espaciado y Puntuación
+- Punto y seguido: UN espacio después
+- Dos puntos: sin mayúscula después (excepto citas directas)
+- Punto y coma: para separar elementos complejos en enumeraciones
+- Usar `~` (espacio inquebrantable) antes de referencias: `véase~\cite{autor2020}`
+
+## Estructura de Secciones y Redacción Académica
+
+### Jerarquía Máxima de 3 Niveles - CRÍTICO
+- **NO** abusar de subsecciones: máximo `\subsubsection`
+- **PROHIBIDO**: Crear más de 3-4 subsecciones por sección principal
+- **OBLIGATORIO**: Usar prosa académica continua, no listas fragmentadas
+- Cada subsección debe tener al menos 3-4 párrafos desarrollados
+
+### Redacción Académica Profesional
+- **NUNCA** escribir como presentación PowerPoint o bullets
+- **OBLIGATORIO**: Párrafos de 4-8 líneas con ideas completamente desarrolladas
+- **PROHIBIDO**: Abuso de `\begin{itemize}` o `\begin{enumerate}`
+- **REQUERIDO**: Transiciones fluidas entre párrafos e ideas
+- **ESENCIAL**: Conectores lógicos académicos entre conceptos
+
+### Uso Apropiado de Listas
+- **SOLO** usar listas para:
+  - Enumeraciones técnicas específicas (fórmulas, pasos de proceso)
+  - Referencias bibliográficas estructuradas
+  - Elementos que NO pueden redactarse en prosa
+- **NUNCA** usar listas para:
+  - Explicar conceptos complejos
+  - Desarrollar argumentos
+  - Presentar hallazgos o conclusiones
+  - Sustituir la redacción académica
+
+### Títulos y Encabezados
+- Capitalización en español: solo primera palabra y nombres propios
+- `\chapter{Introducción}` NO `\chapter{INTRODUCCIÓN}`
+- Títulos concisos: máximo 8-10 palabras
+- **PROHIBIDO**: Títulos que sean solo listas de elementos
+
+## Figuras y Tablas
+
+### Figuras ([figuras/](mdc:figuras))
+```latex
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figuras/nombre_archivo}
+    \caption{Descripción clara y completa de la figura}
+    \label{fig:etiqueta_descriptiva}
+\end{figure}
+```
+
+### Tablas Profesionales
+```latex
+\begin{table}[htbp]
+    \centering
+    \caption{Título descriptivo de la tabla}
+    \label{tab:etiqueta}
+    \begin{tabular}{@{}lcc@{}}
+        \toprule
+        Concepto & Valor & Porcentaje \\
+        \midrule
+        Item 1 & 150,000 & 25\% \\
+        Item 2 & 450,000 & 75\% \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+```
+
+### Referencias Cruzadas
+- Usar etiquetas descriptivas: `\label{fig:dcf_flujos}` NO `\label{f1}`
+- Referenciar con: `Como se observa en la figura~\ref{fig:dcf_flujos}`
+- Para tablas: `La tabla~\ref{tab:multiplos_comparables} muestra`
+
+## Citación APA 7
+
+### Citas en el Texto
+- Autor-fecha: `\cite{autor2020}` → (Autor, 2020)
+- Cita narrativa: `\textcite{autor2020}` → Autor (2020)
+- Múltiples: `\cite{autor2020,otro2021}` → (Autor, 2020; Otro, 2021)
+- Página específica: `\cite[p.~25]{autor2020}` → (Autor, 2020, p. 25)
+
+### Archivo de Referencias ([referencias.bib](mdc:referencias.bib))
+```bibtex
+@article{autor2020,
+    author = {Apellido, Nombre},
+    title = {Título del artículo en minúsculas excepto nombres propios},
+    journal = {Nombre de la Revista},
+    volume = {15},
+    number = {3},
+    pages = {123--145},
+    year = {2020},
+    doi = {10.xxxx/xxxxx}
+}
+```
+
+## Formatos Específicos para Valuación
+
+### Expresiones Matemáticas
+```latex
+% Valor Presente Neto
+VPN = \sum_{t=1}^{n} \frac{FC_t}{(1+r)^t} - I_0
+
+% En línea con texto
+El \emph{free cash flow} se calcula como $FCF = EBITDA - CAPEX - \Delta NWC$
+
+% Ecuaciones importantes
+\begin{equation}
+    WACC = \frac{E}{V} \cdot r_e + \frac{D}{V} \cdot r_d \cdot (1-T)
+    \label{eq:wacc}
+\end{equation}
+```
+
+### Términos Técnicos
+- Cursiva para términos en inglés: `\emph{free cash flow}`
+- Primera aparición: `\emph{Enterprise Value} (EV)`
+- Posterior: solo EV
+- Conservar acrónimos conocidos: DCF, EBITDA, P/E
+
+### Números y Unidades
+- Separador decimal: coma (automático con babel spanish)
+- Miles: punto o espacio fino: `1.500.000` o `1\,500\,000`
+- Porcentajes: `25\%` (con espacio inquebrantable si es necesario)
+- Monedas: `\$USD 150.000` o `€150.000`
+
+## Compilación y Debugging
+
+### Secuencia de Compilación
+1. `pdflatex main.tex`
+2. `biber main` (para bibliografía)
+3. `pdflatex main.tex`
+4. `pdflatex main.tex` (para referencias cruzadas)
+
+### Errores Comunes a Evitar
+- NO usar `\\` para separar párrafos (usar línea en blanco)
+- NO usar `\underline{}` (usar `\emph{}` o `\textbf{}`)
+- NO mezclar idiomas sin `\selectlanguage{}`
+- SIEMPRE usar `\label{}` DESPUÉS de `\caption{}`
+- NO usar espacios en nombres de archivos o etiquetas
+
+## Control de Calidad
+
+### Antes de Compilar Final
+- Verificar todas las citas tienen entrada en .bib
+- Revisar todas las figuras tienen caption y label
+- Comprobar referencias cruzadas funcionan
+- Verificar espaciado y tipografía consistente
+- Compilar 3 veces para asegurar refs cruzadas
+
+### Estándares de Presentación
+- Márgenes: 2.5cm todos los lados
+- Espaciado: 1.5 líneas
+- Fuente: 12pt Times New Roman o similar
+- Páginas numeradas en todas excepto portada
+- Índice automático con `\tableofcontents`
+
+## Ejemplos de Redacción Académica
+
+### ❌ INCORRECTO - Estilo PowerPoint
+```latex
+\subsection{Ventajas del DCF}
+\begin{itemize}
+    \item Es conceptualmente correcto
+    \item Se basa en fundamentos financieros
+    \item Permite análisis de sensibilidad
+    \item Es ampliamente aceptado
+\end{itemize}
+
+\subsection{Desventajas del DCF}
+\begin{itemize}
+    \item Sensible a supuestos
+    \item Requiere proyecciones
+    \item Difícil en empresas tech
+\end{itemize}
+```
+
+### ✅ CORRECTO - Prosa Académica
+```latex
+\subsection{Análisis del método DCF}
+
+El método de descuento de flujos de caja mantiene su relevancia como herramienta fundamental de valoración debido a su solidez conceptual y su fundamentación en principios financieros establecidos. Su capacidad para incorporar análisis de sensibilidad y su amplia aceptación en la comunidad profesional lo convierten en el marco de referencia principal para la estimación del valor intrínseco empresarial.
+
+No obstante, la aplicación del DCF presenta limitaciones significativas, particularmente en el contexto de empresas tecnológicas donde la sensibilidad a supuestos específicos se magnifica considerablemente. La dependencia de proyecciones financieras a largo plazo, combinada con la inherente dificultad de predecir flujos de caja en empresas de base tecnológica, requiere adaptaciones metodológicas específicas que complementen el análisis tradicional.
+```
+
+### Principios de Redacción Académica
+- **Desarrollar ideas completamente** en párrafos coherentes
+- **Usar conectores lógicos**: "sin embargo", "no obstante", "asimismo", "por tanto"
+- **Evitar fragmentación** de conceptos en bullets
+- **Integrar ejemplos** dentro de la narrativa, no como listas separadas
+- **Construir argumentos** de manera progresiva y lógica
+
+**RECUERDA**: Este es un examen de valuación de activos - la presentación debe ser impecable y profesional. Cada detalle tipográfico cuenta para la evaluación final. La redacción debe ser académica, no comercial o tipo presentación.
+
+
+
+
+
+
