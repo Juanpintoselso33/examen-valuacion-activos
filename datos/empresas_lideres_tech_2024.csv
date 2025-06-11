@@ -1,0 +1,21 @@
+Empresa,Market_Cap_B,EV_Revenue_Multiple,EV_EBITDA_Multiple,Revenue_Growth_%,Sector
+Microsoft,3480,12.5,22.5,16.0,Software
+NVIDIA,3410,22.0,33.9,126.0,Semiconductors
+Apple,3100,7.7,22.6,2.0,Hardware
+Amazon,2310,3.5,15.3,11.0,E-commerce
+Alphabet (Google),2070,5.7,12.9,11.0,Internet
+Meta,1730,9.9,16.4,23.0,Social Media
+Tesla,927,9.5,68.4,19.0,Automotive
+Salesforce,256,6.6,16.0,24.0,SaaS
+Oracle,566,9.9,18.3,6.0,Database
+Netflix,535,12.9,43.8,15.0,Streaming
+Palantir,296,89.2,210.4,85.0,Data Analytics
+Broadcom,1220,20.9,32.0,15.0,Semiconductors
+ASML,293,8.6,24.0,25.0,Semiconductor Equip
+IBM,299,4.7,18.1,-2.0,IT Services
+Cisco,275,4.9,12.3,1.0,Networking
+Intel,280,6.2,15.8,-8.0,Semiconductors
+Adobe,310,11.8,28.5,18.0,Software
+Zoom,25,8.5,45.2,3.0,Communications
+Snowflake,45,18.2,85.5,38.0,Cloud Analytics
+ServiceNow,180,14.5,62.1,22.0,SaaS
