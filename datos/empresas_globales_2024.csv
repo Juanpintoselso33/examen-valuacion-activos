@@ -1,0 +1,24 @@
+Empresa,Region,Pais,Market_Cap_B_USD,Revenue_2024_M_USD,EV_Revenue_Multiple,Revenue_Growth_3Y_%,EBITDA_Margin_%,Sector_Specific,AI_Exposure_Score
+Microsoft,Norte América,Estados Unidos,3152,245122,12.9,12.8,46.8,Cloud/Software,5
+Apple,Norte América,Estados Unidos,3329,383285,8.7,7.8,32.9,Consumer Tech,4
+NVIDIA,Norte América,Estados Unidos,3538,126951,27.9,58.9,57.8,AI/Semiconductors,5
+Amazon,Norte América,Estados Unidos,1993,574785,3.5,11.8,14.1,E-commerce/Cloud,4
+Alphabet,Norte América,Estados Unidos,2071,347394,6.0,12.9,28.9,Internet/AI,5
+Meta,Norte América,Estados Unidos,1346,134902,10.0,18.2,38.4,Social Media,4
+Tesla,Norte América,Estados Unidos,1251,96773,12.9,47.2,19.3,EV/Energy,3
+Salesforce,Norte América,Estados Unidos,308,38015,8.1,17.6,23.4,Enterprise SaaS,4
+Adobe,Norte América,Estados Unidos,240,21045,11.4,12.1,39.1,Creative Software,5
+Netflix,Norte América,Estados Unidos,368,33723,10.9,6.7,24.8,Streaming,3
+Uber,Norte América,Estados Unidos,171,37281,4.6,56.3,5.1,Mobility,2
+Airbnb,Norte América,Estados Unidos,83,9924,8.4,38.7,31.2,Travel Tech,2
+ASML,Europa,Países Bajos,395,27559,14.3,18.4,34.7,Semiconductor Equipment,5
+SAP,Europa,Alemania,234,35018,6.7,5.8,27.1,Enterprise Software,4
+Spotify,Europa,Suecia,75,3812,19.7,23.1,25.6,Music Streaming,2
+Adyen,Europa,Países Bajos,29,913,31.8,28.9,65.3,FinTech Payments,3
+Shopify,Norte América,Canadá,135,7060,19.1,25.7,12.4,E-commerce Platform,3
+TSMC,Asia-Pacífico,Taiwán,892,75851,11.8,8.9,42.1,Semiconductor Manufacturing,5
+Samsung,Asia-Pacífico,Corea del Sur,326,243768,1.3,1.2,15.8,Consumer Electronics,3
+Tencent,Asia-Pacífico,China,416,126491,3.3,2.1,25.3,Gaming/Internet,3
+Alibaba,Asia-Pacífico,China,188,131682,1.4,-3.2,7.1,E-commerce,3
+Toyota,Asia-Pacífico,Japón,238,272610,0.9,6.8,12.9,Automotive,2
+Sony,Asia-Pacífico,Japón,108,88201,1.2,2.4,18.7,Entertainment/Electronics,3
