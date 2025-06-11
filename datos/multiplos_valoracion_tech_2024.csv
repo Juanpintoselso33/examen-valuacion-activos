@@ -1,0 +1,18 @@
+Sector,EV_Revenue_Multiple,Crecimiento_Revenue_%,Categoria_Valoracion
+Software (System & Application),11.2,28.8,Premium
+Software (Internet),7.0,2.1,Alta
+Software (Entertainment),7.3,32.2,Alta
+Semiconductors,14.3,29.7,Premium
+Semiconductor Equipment,4.9,24.2,Moderada
+Online Services,6.0,15.0,Moderada
+Computer Hardware,6.5,22.7,Alta
+Telecom Equipment,5.1,17.8,Moderada
+Biotechnology,6.1,1.3,Alta
+Pharmaceuticals,4.8,22.8,Moderada
+Communications & Networking,2.3,11.3,Conservadora
+Computer Services,1.2,6.3,Conservadora
+Electronics (General),2.3,8.3,Conservadora
+Cybersecurity,9.5,25.0,Alta
+AI/Machine Learning,12.8,45.0,Premium
+SaaS Público,7.15,25.0,Alta
+SaaS Privado,5.05,18.0,Moderada
